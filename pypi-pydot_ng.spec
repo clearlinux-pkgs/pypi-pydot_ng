@@ -18,12 +18,12 @@ BuildRequires : buildreq-distutils3
 Provides: pydot_ng
 Provides: pydot_ng-python
 Provides: pydot_ng-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(pyparsing)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ---------------------------------------------------
