@@ -4,7 +4,7 @@
 #
 Name     : pypi-pydot_ng
 Version  : 2.0.0
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/60/7a/d4022ba8b47d8f5e4c58b285e66eb233745f46f07bd7e6569a695fc91e7f/pydot_ng-2.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/60/7a/d4022ba8b47d8f5e4c58b285e66eb233745f46f07bd7e6569a695fc91e7f/pydot_ng-2.0.0.tar.gz
 Summary  : Python interface to Graphviz's Dot
@@ -15,15 +15,12 @@ Requires: pypi-pydot_ng-python = %{version}-%{release}
 Requires: pypi-pydot_ng-python3 = %{version}-%{release}
 Requires: graphviz
 BuildRequires : buildreq-distutils3
-Provides: pydot_ng
-Provides: pydot_ng-python
-Provides: pydot_ng-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(pyparsing)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ---------------------------------------------------
@@ -70,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641474936
+export SOURCE_DATE_EPOCH=1649699024
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
