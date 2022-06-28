@@ -4,7 +4,7 @@
 #
 Name     : pypi-pydot_ng
 Version  : 2.0.0
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/60/7a/d4022ba8b47d8f5e4c58b285e66eb233745f46f07bd7e6569a695fc91e7f/pydot_ng-2.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/60/7a/d4022ba8b47d8f5e4c58b285e66eb233745f46f07bd7e6569a695fc91e7f/pydot_ng-2.0.0.tar.gz
 Summary  : Python interface to Graphviz's Dot
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656384917
+export SOURCE_DATE_EPOCH=1656397696
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
